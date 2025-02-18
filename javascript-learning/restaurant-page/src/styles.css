@@ -9,12 +9,6 @@
     align-items: center;
 }
 
-nav {
-    position: fixed;
-    bottom: 97.5vh;
-    left: 42vw;
-}
-
 button {
     background-color: rgb(0, 157, 255);
     color: white;
