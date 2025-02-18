@@ -11,8 +11,8 @@
 
 nav {
     position: fixed;
-    bottom: 97.5%;
-    left: 42%;
+    bottom: 97.5vh;
+    left: 42vh;
 }
 
 button {
