@@ -30,7 +30,7 @@ const Cell = () => {
 
     const populateCell = (player) => {
         if (value != 0) {
-            throw new Error("Cell is already populated");
+            throw new Error("Cell is already de populated");
         }
         value = player;
     }
