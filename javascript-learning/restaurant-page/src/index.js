@@ -14,7 +14,7 @@ const aboutPage = () => {
     mainDiv.appendChild(h1About);
     mainDiv.appendChild(pAbout);
 }
-
+mainDiv.delete
 const menuPage = () => {
     mainDiv.innerHTML = "";
     generateElement(divMenu);

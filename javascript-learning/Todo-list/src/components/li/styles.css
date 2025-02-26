@@ -1,0 +1,26 @@
+.div-holding-todo-li {
+    display:flex;
+    flex-direction: row;
+}
+
+
+.title-due-date-div {
+    
+}
+
+
+.gray {
+    color: gray;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: rgb(255, 200, 0);
+}

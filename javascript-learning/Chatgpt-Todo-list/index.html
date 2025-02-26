@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Todo List MVC</title>
+</head>
+
+<body>
+    <h1>My Todo List</h1>
+
+    <!--
+    Inputs for creating new Todos.
+    The JS code references these IDs:
+      - todo-title-input
+      - priority-input
+      - due-date-input
+  -->
+    <div>
+        <label for="todo-title-input">Title:</label>
+        <input type="text" id="todo-title-input" />
+
+        <label for="priority-input">Priority:</label>
+        <select id="priority-input">
+            <option value="None">None</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+        <label for="due-date-input">Due Date:</label>
+        <input type="date" id="due-date-input" />
+
+        <!-- The "Add Todo" button -->
+        <button id="add-todo-button">Add</button>
+    </div>
+
+    <!--
+    Additional buttons:
+      - toggle-all-todos-button
+      - delete-all-todos-button
+      - delete-all-completed-todos-button
+  -->
+    <div>
+        <button id="toggle-all-todos-button">Toggle All</button>
+        <button id="delete-all-todos-button">Delete All</button>
+        <button id="delete-all-completed-todos-button">Delete All Completed</button>
+    </div>
+
+    <!-- Display the total number of tasks (todos) -->
+    <div>
+        <span id="todos-left-number">0</span> total tasks
+    </div>
+
+    <!-- The <ul> that will hold all todo items -->
+    <ul id="display-todos-ul">
+        <!-- Filled dynamically by your TodoView code -->
+    </ul>
+
+    <!--
+    Load your main entry point as a module.
+    Make sure the path matches your directory structure.
+  -->
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>
